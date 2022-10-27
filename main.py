@@ -2,6 +2,9 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+from Classes import *
+
+
 
 
 def print_hi(name):
@@ -11,9 +14,9 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    #celular = Categoria("Celular")
+    iphone8 = Produto("Iphone 8", "Bateria 100%")
 
-    #Mais um teste
-
+    print(iphone8.nome)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
