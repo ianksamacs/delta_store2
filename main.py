@@ -13,7 +13,7 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-    #alguma coisa 2
+    #Mais um teste
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
