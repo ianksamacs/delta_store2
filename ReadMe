@@ -1,0 +1,21 @@
+Adicionar mercadoria em estoque
+Adicionar vendas(data, valor de venda, observação, cliente)
+valor de compra
+
+
+
+Classes
+Entrada (Array Movimento , data, origem, observação)
+Saida (Array Movimento, data, observação, cliente)
+Movimento (Produto, quantidade, valorUnitario, valorTotal)
+Produto(nome, descrição, ultimoValor, Categoria, quantidade,)
+Categoria(nome, descrição)
+Cliente(nome, telefone, cpf, Endereço)
+Endereco(CEP, logradouro, numero, cidade, estado, bairro)
+
+
+fone  - 105 a 1006 / 10
+fone 5  60 / 12
+
+
+
