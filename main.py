@@ -14,9 +14,10 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    #celular = Categoria("Celular")
+    celular = Categoria()
+    celular.nome="Teste"
     iphone8 = Produto("Iphone 8", "Bateria 100%")
-
-    print(iphone8.nome)
+    mov = Movimento(iphone8,1400,1400)
+    print(mov.Produto.nome)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
