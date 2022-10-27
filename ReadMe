@@ -2,9 +2,17 @@ Adicionar mercadoria em estoque
 Adicionar vendas(data, valor de venda, observação, cliente)
 valor de compra
 
+Janelas
+Tela login
+Tela Meus Produtos
+Tela Realizar Venda
+Tela Realizar Entrada
+Tela Relatorio Vendas
+Tela Fluxo de Caixa
 
 
-Classes
+
+Clases
 Entrada (Array Movimento , data, origem, observação)
 Saida (Array Movimento, data, observação, cliente)
 Movimento (Produto, quantidade, valorUnitario, valorTotal)
