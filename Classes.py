@@ -48,14 +48,14 @@ class Entrada:
 
 
 class Saida:
-    def __init__(self, Usuario, Movimento, data, Cliente=None, origem=None, observacao=None):
+    def __init__(self, Usuario, Movimento, data, Cliente=None, origem=None, observacao=None, status=None):
         self.Usuario = Usuario
         self.Movimento = Movimento
         self.data = data
         self.origem = origem
         self.observacao = observacao
         self.Cliente = Cliente
-
+        self.status = status
 
 class Usuario:
     def __int__(self, nome, login, senha, admin=False):
