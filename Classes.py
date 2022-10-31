@@ -40,11 +40,12 @@ class Endereco:
 
 
 class Entrada:
-    def __init__(self, Movimento, data, origem=None, observacao=None):
+    def __init__(self, Movimento, data, origem=None, observacao=None, status="Pendente"):
         self.Movimento = Movimento
         self.data = data
         self.origem = origem
         self.observacao = observacao
+        self.status = status
 
 
 class Saida:
